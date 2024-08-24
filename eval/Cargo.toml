@@ -42,7 +42,7 @@ chrono = "0.4.38"
 
 [features]
 default = []
-cuda = ["dep:sp1-server", "risc0-zkvm/cuda"]
+cuda = ["dep:sp1-server"]
 
 # jolt
 jolt-zkvm = [
